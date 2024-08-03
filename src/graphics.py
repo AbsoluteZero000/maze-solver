@@ -70,4 +70,3 @@ class Cell:
     def draw_move(self, to_cell, undo=False):
         cell_color = "black" if not undo else "red"
         self.__win.draw_line(Line(Point((self.__x1 + self.__x2)/2, (self.__y1 + self.__y2)/2), Point((to_cell.__x1 + to_cell.__x2)/2, (to_cell.__y1 + to_cell.__y2)/2)), cell_color)
-        
