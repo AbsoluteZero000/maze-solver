@@ -18,7 +18,7 @@ This is a GUI-based maze solver implemented using Python and Tkinter. The progra
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/maze-solver.git
+   git clone https://github.com/AbsoluteZero000/maze-solver.git
    cd maze-solver
     ```
 Make sure you have Python installed. You can check your Python version with:
@@ -30,7 +30,7 @@ Usage
 You can run the maze solver from the command line with the following options:
 
 ```bash
-python3 main.py [-b] [-d] [-h]
+python3 src/main.py [-b] [-d] [-h]
 -b: Run the BFS solver.
 -d: Run the DFS solver.
 -b -d: Run both the BFS and DFS solvers.
@@ -39,16 +39,16 @@ Examples
 To run the BFS solver:
 ```
 ```bash
-python3 main.py -b
+python3 src/main.py -b
 ```
 or
 ```bash
 ./run.sh -b
 ```
 To run the DFS solver:
-```
+
 ```bash
-python3 main.py -d
+python3 src/main.py -d
 ```
 or
 ```bash
@@ -56,7 +56,7 @@ or
 ```
 To run both the BFS and DFS solvers:
 ```bash
-python3 main.py -b -d
+python3 src/main.py -b -d
 ```
 or
 
