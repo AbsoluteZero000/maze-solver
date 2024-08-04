@@ -105,7 +105,7 @@ class Maze:
     def _solve_dfs(self, i, j):
         self._animate()
         self._cells[i][j].visited = True
-        sleep(0.01)
+        sleep(0.1)
         if i == self._num_rows - 1 and j == self._num_cols - 1:
             return True
         if i > 0 and not self._cells[i - 1][j].visited and not self._cells[i][j].has_left_wall:
@@ -137,7 +137,7 @@ class Maze:
 
         while(to_visit):
             self._animate()
-            sleep(0.01)
+            sleep(0.1)
             i,  j = to_visit.pop(0)
             self._cells[i][j].visited = True
 
